@@ -15,7 +15,7 @@ function App() {
     return(
         <div>
             <h1> Hello World</h1>
-            <button onLoad={fetchPosts}>GET ALL DATA</button>
+            <button onClick={fetchPosts}>GET ALL DATA</button>
             <div>
                 <PhotoList photos={posts}/>
             </div>
