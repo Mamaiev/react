@@ -14,12 +14,11 @@ function App() {
 
     return(
         <div>
-            <h1> Hello World</h1>
             <button onClick={fetchPosts}>GET ALL DATA</button>
             <div>
                 <PhotoList photos={posts}/>
             </div>
-            <Map photos={posts}/>
+            <Map/>
         </div>
     );
 }
